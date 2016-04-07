@@ -4,7 +4,7 @@ Client: Your Client
 Author: Your Name
 Developer @GA in NYC
 */
-
+/* ! Important overrides things more than inline in css
 
 /******************************************
 /* SETUP
@@ -17,7 +17,8 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
-/* Clear fix hack */
+/* Clear fix hack * -- 
+then you add .cf into the HTML!*/
 .clearfix:after {
      content: ".";
      display: block;
@@ -26,6 +27,9 @@ Developer @GA in NYC
      line-height: 0;
      height: 0;
 }
+
+/* Clear fix hack this clears the LAST thing you did - 
+so move box down! */
 
 .clear {
   clear: both;
@@ -121,7 +125,7 @@ header {
   vertical-align: middle;
   box-shadow: #111 0 0 20px;
 }
-#/*submit-btn {
+/*submit-btn {
   background: #ffe500;
   color: #000;
   font-size: 38px;
@@ -143,19 +147,19 @@ header {
 }*/
 
 .nyc {
-  background-image: url(../images/nyc.jpg)
+  background-image: url(../images/nyc.jpg);
 }
 .sf {
-  background-image: url(../images/sf.jpg)
+  background-image: url(../images/sf.jpg);
 }
 .la {
-  background-image: url(../images/la.jpg)
+  background-image: url(../images/la.jpg);
 }
 .austin {
-  background-image: url(../images/austin.jpg)
+  background-image: url(../images/austin.jpg);
 }
 .sydney {
-  background-image: url(../images/sydney.jpg)
+  background-image: url(../images/sydney.jpg);
 }
 
 /******************************************
